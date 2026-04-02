@@ -1,91 +1,67 @@
 # 🎮 Rock Paper Scissors Game
 
-A simple and fun **Rock Paper Scissors** game built using **Java**, where you play against the computer 🤖.
+> A fun and interactive **Rock Paper Scissors** game built using **Java**, where you play against the computer 🤖.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-* 👤 User vs Computer gameplay
-* 🎲 Random computer choice
-* 🧠 Smart game logic
-* ⚡ Fast and lightweight
-* 💻 Beginner-friendly project
+* 🔁 Multiple rounds gameplay
+* 🤖 Random computer moves
+* 🧠 Smart win/lose logic
+* 🧮 Score tracking system
+* 🚪 Exit option anytime
 
 ---
 
 ## 🛠️ Tech Stack
 
 * ☕ Java
-* 🎯 OOP Concepts
-* 🔢 Basic Logic & Conditions
+* 🔄 Loops & Conditions
+* 📦 Arrays
+* 🎲 Random Class
 
 ---
 
-## 🎯 How It Works
+## 🎯 Game Rules
 
-* You choose:
-
-  * 1 → Rock
-  * 2 → Paper
-  * 3 → Scissors
-
-* Computer randomly selects its move
-
-* Winner is decided based on standard rules:
-
-| You      | Computer | Result    |
-| -------- | -------- | --------- |
-| Rock     | Scissors | ✅ You Win |
-| Paper    | Rock     | ✅ You Win |
-| Scissors | Paper    | ✅ You Win |
+* 🪨 Rock beats Scissors
+* 📄 Paper beats Rock
+* ✂️ Scissors beats Paper
 
 ---
 
 ## ▶️ How to Run
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/Rock-Paper-Scissors.git
-   ```
-
-2. Navigate to folder:
-
-   ```bash
-   cd Rock-Paper-Scissors
-   ```
-
-3. Compile:
-
-   ```bash
-   javac RockPaperScissors.java
-   ```
-
-4. Run:
-
-   ```bash
-   java RockPaperScissors
-   ```
+```bash
+git clone https://github.com/your-username/Rock-Paper-Scissors.git
+cd Rock-Paper-Scissors
+javac RockPaperScissors.java
+java RockPaperScissors
+```
 
 ---
 
 ## 📸 Sample Output
 
 ```
-Enter 1 for Rock, 2 for Paper, 3 for Scissors:
+🎮 Welcome to Rock Paper Scissors!
+
+Enter 1 for Rock, 2 for Paper, 3 for Scissors (0 to Exit):
 1
+You chose: Rock
 Computer chose: Scissors
-You Win!
+You Win! 🎉
+Score -> You: 1 | Computer: 0
 ```
 
 ---
 
-## 🌱 Future Improvements
+## 🚀 Future Improvements
 
-* 🔁 Multiple rounds
-* 🧮 Score tracking system
 * 🎨 GUI version (Java Swing)
+* 👥 Two-player mode
+* 📊 Advanced scoring system
 * 🌐 Web-based version
 
 ---
@@ -93,12 +69,12 @@ You Win!
 ## 🙋‍♂️ Author
 
 **Manmath Gopanpalle**
-💡 Aspiring Developer | 🚀 Tech Enthusiast
+💻 Aspiring Developer | 🚀 Learning & Building Projects
 
 ---
 
-## ⭐ Support
+## ⭐ Show Your Support
 
-If you like this project, give it a ⭐ on GitHub!
+If you like this project, don’t forget to ⭐ the repository!
 
 ---
