@@ -38,7 +38,7 @@
 ## ▶️ How to Run
 
 ```bash
-git clone https://github.com/your-username/Rock-Paper-Scissors.git
+git clone https://github.com/manmath11/Rock-Paper-Scissors.git
 cd Rock-Paper-Scissors
 javac RockPaperScissors.java
 java RockPaperScissors
