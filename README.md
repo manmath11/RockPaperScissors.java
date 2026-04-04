@@ -6,11 +6,15 @@
 
 ## ✨ Features
 
-* 🔁 Multiple rounds gameplay
+* 🔁 Multiple rounds (loop added)
 * 🤖 Random computer moves
 * 🧠 Smart win/lose logic
 * 🧮 Score tracking system
 * 🚪 Exit option anytime
+* 📊 Score tracking system
+* ❌ Exit option (0)
+* ⚠️ Invalid input handling
+* 🎯 User-friendly output (Rock/Paper/Scissors instead of numbers)
 
 ---
 
