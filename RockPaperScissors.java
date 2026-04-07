@@ -9,7 +9,7 @@ public class RockPaperScissors {
         Random rand = new Random();
 
         int userScore = 0;
-        int compScore = 0;
+        int computerScore = 0;
 
         System.out.println("🎮 Welcome to Rock Paper Scissors Game!");
 
@@ -28,7 +28,7 @@ public class RockPaperScissors {
                 continue;
             }
 
-            int comp = rand.nextInt(3) + 1;
+            int computer = rand.nextInt(3) + 1;
 
             // Convert numbers to names
             String[] choices = {"", "Rock", "Paper", "Scissors"};
@@ -49,7 +49,7 @@ public class RockPaperScissors {
             }
             else {
                 System.out.println("💻 Computer Wins!");
-                compScore++;
+                computerScore++;
             }
 
             // Score display
@@ -58,7 +58,7 @@ public class RockPaperScissors {
 
         System.out.println("\nFinal Score:");
         System.out.println("You: " + userScore);
-        System.out.println("Computer: " + compScore);
+        System.out.println("Computer: " + computerScore);
 
         sc.close();
     }
